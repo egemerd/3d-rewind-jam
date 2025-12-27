@@ -9,6 +9,7 @@ public class InputManager : MonoBehaviour
     private PlayerInput playerInput;
 
     public InputAction rewindAction;
+    public InputAction interactAction;
 
 
     private void Awake()
@@ -34,6 +35,7 @@ public class InputManager : MonoBehaviour
     private void InitializeActions()
     {
         rewindAction = playerInput.actions.FindAction("Player/Rewind");
+        interactAction = playerInput.actions.FindAction("Player/Interact");
 
         if (rewindAction == null)
         {
