@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1f23e71f-5f81-4ae3-bed6-30a99f381ac6",
+            "actions": [
+                {
+                    "name": "Rewind",
+                    "type": "Button",
+                    "id": "fae2b816-c71b-42da-9c41-d8495b9c8c82",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1f0ae5b8-2e6c-4f43-8583-dc0046d225d9",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
